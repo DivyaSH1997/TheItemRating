@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/Like"
-        android:title="@string/like"
-        android:icon="@drawable/like"/>
+        android:title="@string/like"/>
     <item android:id="@+id/Dislike"
-        android:title="@string/dislike"
-        android:icon="@drawable/dislike"/>
+        android:title="@string/dislike"/>
     <item android:id="@+id/Okay"
-        android:title="@string/okay"
-        android:icon="@drawable/ok"/>
+        android:title="@string/okay"/>
     <item android:id="@+id/None"
-        android:title="@string/none"
-        android:icon="@drawable/notapplicable"/>
+        android:title="@string/none"/>
 
 </menu>

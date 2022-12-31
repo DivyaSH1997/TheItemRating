@@ -26,11 +26,19 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
+
+        initViews();
+        getDetails();
+    }
+    public void initViews()
+    {
         imageDisplay=findViewById(R.id.imageDisplay);
         itemname=findViewById(R.id.txtItemName);
         btnBack=findViewById(R.id.btnBack);
 
-
+    }
+    public void getDetails()
+    {
         Intent forward = getIntent();
         Bundle bundle = forward.getExtras();
         imageid= bundle.getInt("id");
@@ -42,8 +50,8 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
-
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

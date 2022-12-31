@@ -2,8 +2,8 @@
     <string name="app_name">ItemRating</string>
     <string name="like">Like</string>
     <string name="dislike">Dislike</string>
-    <string name="none">Not Applicable</string>
     <string name="okay">Okay</string>
+    <string name="none">None</string>
 
     <string-array name="fooditems">
         <item>Chocolate</item>
